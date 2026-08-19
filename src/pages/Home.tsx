@@ -80,7 +80,7 @@ function Home() {
 
       {/* Demo Product Image */}
       <img
-        src="https://res.cloudinary.com/dbhshe7qu/image/upload/v1787160640/Anime_lprvcj.webp"
+        src="https://res.cloudinary.com/dbhshe7qu/image/upload/v1787160641/trending_o8shwh.webp"
         alt="ThreadVerse product"
         className="absolute inset-0 h-full w-full object-cover"
       />
