@@ -91,16 +91,15 @@ function Home() {
         <p className="text-xs font-bold uppercase tracking-[0.3em] text-[#E97917]">
           ThreadVerse / 001
         </p>
-
-        <h2 className="mt-3 max-w-sm text-4xl font-white leading-none tracking-[-0.05em] sm:text-5xl">
-          Your fandom.
-          <br />
-          Your identity.
-        </h2>
+<h2 className="mt-3 max-w-sm text-4xl font-black leading-none tracking-[-0.05em] text-white sm:text-5xl">
+  Your fandom.
+  <br />
+  Your identity.
+</h2>
 
         <Link
           to="/collections"
-          className="mt-6 inline-flex rounded-full bg-[#FFFFFF] px-4 py-2 text-xs font-bold text-white transition hover:bg-[#F28C28]"
+          className="mt-6 inline-flex rounded-full bg-[#FFFFF] px-4 py-2 text-xs font-bold text-white transition hover:bg-[#F28C28]"
         >
           Explore the universe
         </Link>
