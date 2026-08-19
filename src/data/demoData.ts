@@ -5,6 +5,8 @@ export const collections = [
     description:
       "Fandom-inspired pieces built around iconic worlds, characters, and stories.",
     label: "01",
+    image:
+      "https://res.cloudinary.com/dbhshe7qu/image/upload/v1787160640/Anime_lprvcj.webp",
   },
   {
     id: "streetwear",
@@ -12,6 +14,8 @@ export const collections = [
     description:
       "Clean silhouettes, oversized fits, and everyday pieces with attitude.",
     label: "02",
+    image:
+      "https://res.cloudinary.com/dbhshe7qu/image/upload/v1787160641/streetwear_krsaym.webp",
   },
   {
     id: "gaming",
@@ -19,6 +23,8 @@ export const collections = [
     description:
       "Inspired by the games, worlds, and digital universes we grew up with.",
     label: "03",
+    image:
+      "https://res.cloudinary.com/dbhshe7qu/image/upload/v1787160640/gaming_rwxrwb.webp",
   },
   {
     id: "trending",
@@ -26,6 +32,8 @@ export const collections = [
     description:
       "The latest styles, popular themes, and pieces everyone is talking about.",
     label: "04",
+    image:
+      "https://res.cloudinary.com/dbhshe7qu/image/upload/v1787160641/trending_o8shwh.webp",
   },
   {
     id: "oversized",
@@ -33,6 +41,8 @@ export const collections = [
     description:
       "Relaxed silhouettes designed for comfort, layering, and effortless fits.",
     label: "05",
+    image:
+      "https://res.cloudinary.com/dbhshe7qu/image/upload/v1787160640/oversized_rkdwqd.jpg",
   },
   {
     id: "minimal",
@@ -40,6 +50,8 @@ export const collections = [
     description:
       "Subtle designs for people who prefer understated fandom expression.",
     label: "06",
+    image:
+      "https://res.cloudinary.com/dbhshe7qu/image/upload/v1787160640/minimal_blhudb.webp",
   },
   {
     id: "graphic",
@@ -47,6 +59,8 @@ export const collections = [
     description:
       "Bold visuals and statement graphics made to stand out.",
     label: "07",
+    image:
+      "https://res.cloudinary.com/dbhshe7qu/image/upload/v1787160640/fandom_axijkh.webp",
   },
   {
     id: "limited",
@@ -54,6 +68,8 @@ export const collections = [
     description:
       "Special concepts and exclusive drops designed to feel different.",
     label: "08",
+    image:
+      "https://res.cloudinary.com/dbhshe7qu/image/upload/v1787160640/LimitedEdition_oudfwm.webp",
   },
 ];
 
