@@ -70,36 +70,45 @@ function Home() {
             </div>
 
             <motion.div
-              initial={{ opacity: 0, scale: 0.96 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.7 }}
-              className="relative"
-            >
-              <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] border border-[#EEEEEA] bg-white p-3 shadow-[0_25px_70px_rgba(0,0,0,0.06)]">
-                <div className="relative flex h-full items-end overflow-hidden rounded-[1.5rem] bg-[#FFF8F2] p-8">
-                  <div className="absolute right-[-70px] top-[-50px] h-72 w-72 rounded-full bg-[#FFE4CC]" />
+  initial={{ opacity: 0, scale: 0.96 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 0.7 }}
+  className="relative"
+>
+  <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] border border-[#EEEEEA] bg-white p-3 shadow-[0_25px_70px_rgba(0,0,0,0.06)]">
+    <div className="relative flex h-full items-end overflow-hidden rounded-[1.5rem] bg-[#FFF8F2] p-8">
 
-                  <div className="relative z-10">
-                    <p className="text-xs font-bold uppercase tracking-[0.3em] text-[#E97917]">
-                      ThreadVerse / 001
-                    </p>
+      {/* Demo Product Image */}
+      <img
+        src="https://res.cloudinary.com/dbhshe7qu/image/upload/v1787160640/Anime_lprvcj.webp"
+        alt="ThreadVerse product"
+        className="absolute inset-0 h-full w-full object-cover"
+      />
 
-                    <h2 className="mt-3 max-w-sm text-4xl font-black leading-none tracking-[-0.05em] sm:text-5xl">
-                      Your fandom.
-                      <br />
-                      Your identity.
-                    </h2>
+      <div className="absolute right-[-70px] top-[-50px] h-72 w-72 rounded-full bg-[#FFE4CC]" />
 
-                    <Link
-                      to="/collections"
-                      className="mt-6 inline-flex rounded-full bg-[#FFFFF] px-4 py-2 text-xs font-bold text-white transition hover:bg-[#F28C28]"
-                    >
-                      Explore the universe
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </motion.div>
+      <div className="relative z-10">
+        <p className="text-xs font-bold uppercase tracking-[0.3em] text-[#E97917]">
+          ThreadVerse / 001
+        </p>
+
+        <h2 className="mt-3 max-w-sm text-4xl font-black leading-none tracking-[-0.05em] sm:text-5xl">
+          Your fandom.
+          <br />
+          Your identity.
+        </h2>
+
+        <Link
+          to="/collections"
+          className="mt-6 inline-flex rounded-full bg-[#FFFFF] px-4 py-2 text-xs font-bold text-white transition hover:bg-[#F28C28]"
+        >
+          Explore the universe
+        </Link>
+      </div>
+
+    </div>
+  </div>
+</motion.div>
           </div>
         </section>
 

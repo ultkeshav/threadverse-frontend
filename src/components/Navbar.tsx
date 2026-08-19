@@ -179,7 +179,7 @@ function Navbar() {
                   <Link
                     to="/register"
                     onClick={closeMenu}
-                    className="flex flex-1 items-center justify-center rounded-full bg-[#E5E5E0] px-4 py-3 text-sm font-semibold text-white"
+                    className="flex flex-1 items-center justify-center rounded-full bg-[#FFFFFF] px-4 py-3 text-sm font-semibold text-white"
                   >
                     Sign Up
                   </Link>
