@@ -69,7 +69,7 @@ function Home() {
               </div>
             </div>
 
-            <motion.div
+<motion.div
   initial={{ opacity: 0, scale: 0.96 }}
   animate={{ opacity: 1, scale: 1 }}
   transition={{ duration: 0.7 }}
@@ -85,21 +85,21 @@ function Home() {
         className="absolute inset-0 h-full w-full object-cover"
       />
 
-      <div className="absolute right-[-70px] top-[-50px] h-72 w-72 rounded-full bg-[#FFE4CC]" />
-
+      {/* Text */}
       <div className="relative z-10">
         <p className="text-xs font-bold uppercase tracking-[0.3em] text-[#E97917]">
           ThreadVerse / 001
         </p>
-<h2 className="mt-3 max-w-sm text-4xl font-black leading-none tracking-[-0.05em] text-white sm:text-5xl">
-  Your fandom.
-  <br />
-  Your identity.
-</h2>
+
+        <h2 className="mt-3 max-w-sm text-4xl font-black leading-none tracking-[-0.05em] text-white sm:text-5xl">
+          Your fandom.
+          <br />
+          Your identity.
+        </h2>
 
         <Link
           to="/collections"
-          className="mt-6 inline-flex rounded-full bg-[#FFFFF] px-4 py-2 text-xs font-bold text-white transition hover:bg-[#F28C28]"
+          className="mt-6 inline-flex rounded-full bg-white px-4 py-2 text-xs font-bold text-black transition hover:bg-[#F28C28] hover:text-white"
         >
           Explore the universe
         </Link>
